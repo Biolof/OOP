@@ -4,7 +4,6 @@ public class Battery1 extends SolarPanel{
     Battery1(String weather, double time, double power, int capacity) {
         super(weather, time, power, capacity);
     }
-    Battery1 battery1 = new Battery1("Ясно",2,5,20);
     void capacity(){
         System.out.println("Ємність акамулятора на сонячних панелях - " + capacity);
     };

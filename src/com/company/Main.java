@@ -33,5 +33,7 @@ public static void main(String[] args) {
         System.out.println("Забруднення атмосфери -  " + num3.atmosphericPollution(1,12));
         num3.efficiency();
         //Battery1 <---------------
+        Battery1 battery1 = new Battery1("Ясно",2,5,20);
+        battery1.test();
     }
 }
