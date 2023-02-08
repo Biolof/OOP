@@ -24,7 +24,7 @@ package com.company;
          return a;
      }
 
-     void square(double length, double width) {
+     final void square(double length, double width) {
          double s = length * width;
          System.out.println("Площа пенелей - " + s);
      }
